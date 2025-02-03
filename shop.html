@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Dots & Pixels Ventures Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/logos/DOTS-PIXELS-logo.png" alt="Dots & Pixels Logo">
+            </div>            
+            <div class="nav-links">
+                <a href="./index.html" class="active">Home</a>
+                <a href="./services.html">Services</a>
+                <a href="./shop.html">Shop</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./about.html">About Us</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav><section class="shop-hero">
+        <div class="shop-hero-content">
+            <h1>Shop Our Products</h1>
+            <p>Quality Office Supplies, Printers & ETR Solutions</p>
+        </div>
+    </section>  <section class="shop-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="stationery">Office Stationery</button>
+                <button class="category-btn" data-category="printers">Printers</button>
+                <button class="category-btn" data-category="etr">ETR Machines</button>
+            </div>
+            <div class="products-grid"></div>
+        </div>
+    </section>
+    <div class="quick-view-modal" id="quickViewModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body"></div>
+        </div>
+    </div><div class="cart-preview" id="cartPreview">
+        <div class="cart-header">
+            <h3 style="color: #2c2a7c; font-weight: 600;">Shopping Cart</h3>
+            <span class="close-cart" style="font-size: 1.547rem;">&times;</span>
+        </div>
+        <div class="cart-items"> </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span style="font-weight: 600;">Total:</span>
+                <span class="total-amount">KSh 0</span>
+            </div>
+            <button class="checkout-btn" onclick="checkoutViaWhatsApp()">
+                Checkout via WhatsApp
+            </button>
+        </div>
+    </div>
+<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="assets/images/shop/stationery/" alt="Dots & Pixels Logo">
+                </div>
+                <p class="company-description">
+                    Dots & Pixels Ventures is your premier partner for innovative printing solutions and creative design services. We transform ideas into impactful visual experiences.
+                </p>
+                
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./services.html">Our Services</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="./services/digital-printing.html">Digital Printing</a></li>
+                    <li><a href="./services/large-format.html">Large Format</a></li>
+                    <li><a href="./services/brand-identity.html">Brand Identity</a></li>
+                    <li><a href="./services/vehicle-wraps.html">Vehicle Wraps</a></li>
+                    <li><a href="./services/corporate-merchandise.html">Corporate Merchandise</a></li>
+                    <li><a href="./services/offset-printing.html">Offset Printing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column sdftyuio">
+                <h3>Contact Us</h3>
+                <div class=".contact-info_dfghjkldfuio74">
+                    <p><i class="fas fa-map-marker-alt"></i> West Corner House, Nairobi, Kenya</p>
+                    <p style="margin-top: 7px;"><i class="fas fa-phone"></i> +254-723-969-372</p>
+                    <p style="margin-top: 7px;"><i class="fas fa-envelope"></i> info@dotsandpixels.co.ke</p>
+                    <p style="margin-top: 7px;"><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer_social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+
+        <div class="footer-bottom" style="margin-bottom: 0;">
+            <p>&copy; 2024 Dots & Pixels Ventures. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./shop.js"></script>
+    <script src="slider.js"></script>
+    <script src="services.js"></script>
+
+
+<script src="./assets/js/slider.js"></script>
+<script src="./assets/js/shop.js"></script>
+<script src="./assets/js/services.js"></script>
+</body>
+</html> 
