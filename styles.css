@@ -840,3 +840,145 @@
     }
 }
 
+/* General responsive adjustments */
+@media (max-width: 1200px) {
+    .nav-container, 
+    .hero-content,
+    .services-grid,
+    .newsletter-map-grid,
+    .impact-container,
+    .footer-container {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-container {
+        padding: 15px 20px;
+    }
+
+    .search-container {
+        max-width: 400px;
+        margin: 0 1rem;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .newsletter-map-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .impact-stats {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-content {
+        padding: 3rem 1rem;
+    }
+
+    .banner-content h2 {
+        font-size: 2rem;
+    }
+
+    .newsletter-container {
+        padding: 2rem 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-container {
+        padding: 10px 15px;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    .banner-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .newsletter-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .impact-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) {
+    .btn:hover,
+    .service-card:hover,
+    .banner-cta .btn:hover {
+        transform: none;
+    }
+
+    .service-link:hover {
+        gap: 0.5rem;
+    }
+}
+
+/* Landscape mode adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 6rem 0;
+    }
+
+    .nav-links.active {
+        padding: 2rem;
+    }
+}
+
