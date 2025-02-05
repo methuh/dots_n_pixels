@@ -217,6 +217,7 @@
 
     .collection-item.large {
         height: 300px;
+        width: 96.4%;
     }
 
     .options-grid {
