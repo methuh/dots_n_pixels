@@ -1,4 +1,4 @@
-/* Service Hero Styles */
+
 .service-hero {
     height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -10,7 +10,6 @@
     justify-content: center;
     text-align: center;
     color: var(--white);
-    margin-top: 80px;
 }
 
 .service-hero-content h1 {
@@ -23,8 +22,6 @@
     font-size: 1.5rem;
     animation: fadeInUp 1s ease;
 }
-
-/* Service Overview */
 .service-overview {
     padding: 6rem 2rem;
 }
@@ -52,8 +49,6 @@
     border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
-
-/* Print Services Grid */
 .print-services {
     background-color: var(--light-gray);
     padding: 6rem 2rem;
@@ -116,8 +111,6 @@
     font-weight: 600;
     color: var(--primary-color);
 }
-
-/* Process Timeline */
 .process-timeline {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -145,8 +138,6 @@
     font-size: 2rem;
     color: var(--white);
 }
-
-/* Quote Form */
 .quote-section {
     padding: 6rem 2rem;
     background: var(--white);
@@ -186,8 +177,6 @@
     border-radius: 8px;
     font-size: 1rem;
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .service-hero-content h1 {
         font-size: 2.5rem;
@@ -205,8 +194,6 @@
         grid-template-columns: 1fr;
     }
 }
-
-/* Animations */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -291,8 +278,6 @@
     font-size: 0.875rem;
     margin-top: 1rem;
 }
-
-/* Modern Prints Grid */
 .prints-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -337,7 +322,6 @@
     color: var(--accent-color);
 }
 
-/* Installation Gallery */
 .installation-gallery {
     margin-top: 4rem;
 }
