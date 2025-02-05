@@ -146,8 +146,6 @@
     margin: 1.2354rem;
 }
 
-.why-choose-us 
-
 .features-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
