@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
@@ -25,12 +26,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
     max-width: 1400px;
     margin: 0 auto;
     width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
     padding: 10px 15px;
 }
 
@@ -347,11 +345,13 @@
     }
 }
 .newsletter-map {
-    padding: 6rem 0;
+    padding: 6rem 1rem;
     background-color: var(--light-gray);
 }
 
 .newsletter-map-grid {
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
@@ -469,7 +469,9 @@
 .testimonials-section {
     max-width: 1200px;
     margin: 0 auto 60px;
-    padding: 0 20px;
+    padding: 0 1rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 .testimonials-section h2 {
@@ -734,8 +736,8 @@
     }
 }
 .impact-cta {
-    margin: 1.3354rem;
-    padding: 80px 0;
+    margin: 0;
+    padding: 80px 1rem;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
 }
@@ -757,6 +759,7 @@
     justify-content: center;
     gap: 60px;
     margin-bottom: 40px;
+    padding: 0 1rem;
 }
 
 .stat-item {
@@ -954,15 +957,13 @@
     }
 
     .banner-content {
-        padding: 3rem 1rem;
-    }
-
-    .banner-content h2 {
-        font-size: 2rem;
+        padding: 4rem 1rem;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .newsletter-container {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1rem;
     }
 
     .stat-number {
@@ -1038,5 +1039,12 @@
     .nav-links.active {
         padding: 2rem;
     }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
 }
 
